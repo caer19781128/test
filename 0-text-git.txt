@@ -1,0 +1,15 @@
+1、打开git bash
+2、cd h:/projectBaseGit
+3、执行 git init  
+             --  本文件夹成为git本地代码仓库， 
+             --  自动产生 .git文件夹，H:\projectBaseGit\.git下是自定生产的由git自动管理的文件
+             --  H:\projectBaseGit\.git\refs\heads 里面是
+4、创建本文件，输入一定内容，准备提交到github的远程代码仓库
+5、执行 git status  
+             -- 显示哪些文件可以提交
+             -- 此时显示可提交文件为红色。
+6、执行 git add 0-text-git.txt
+             -- 添加0-text-git.txt为待提交的文件
+             -- git status查询后，红色可提交文件变绿色的待提交的文件
+             -- 执行 git add .  表示添加所有可提交文件为待提交文件
+             -- 执行 git rm 0-text-git.txt ，将待提交文件变为可提交文件
